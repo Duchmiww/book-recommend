@@ -1,13 +1,40 @@
-h3{
+ .head{
     font-family: "Mitr", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
 }
 
 
-p {
+
+p{
     font-family: "Pridi", serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 
 }
+
+
+
+.background{
+  background-color: rgb(167, 224, 243);
+
+
+}
+
+.center{
+  text-align: center;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+
+
+}
+
+.margin {
+  margin: 80px 80px;
+}
+
+
+

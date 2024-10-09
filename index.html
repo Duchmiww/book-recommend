@@ -14,60 +14,82 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pridi&display=swap" rel="stylesheet">
 
   
   </head>
-  <body>
+
+  <body style="background-color: rgb(241, 223, 224);">
     <div class="container">
-        
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <!-- start row 1 -->
+      <div class="row">
+        <nav class="navbar navbar-expand-lg" style="background-color: rgb(255, 163, 194);">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">babi</a>
+
+              <a class="navbar-brand  " href="#">babi</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#" >Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link active" href="#">All book</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      About
+                      Contact 
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Facebook</a></li>
+                      <li><a class="dropdown-item" href="#">Line</a></li>
+                      <li><a class="dropdown-item" href="#">Youtube</a></li>
                     </ul>
                   </li>
+                  
                  
                 </ul>
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-dark" type="submit">Search</button>
+                  <button class="btn btn-light" type="submit">Search</button>
                 </form>
               </div>
             </div>
+          
           </nav>
+        </div>
+        <!-- end row 1 -->
+
+         <!-- row 2 -->
+        <br>
+        <br>
         
+        <div class="row ">
+          <h1 class="head text-center"> Book Reviews</h1>
+        </div>
+        <!-- end row 2 -->
 
           <br>
-          <br>
-        <div class="row">
-            <div class="col-md-4">
-                <img alt="" src="images/book-1.jpg" class="img-fluid"  />
+          
+          <!-- row 3 -->
+           
+
+        <div class="row align-items-center margin">
+            <div class="col-md-6">
+                <img alt="" src="images/book-1.jpg" class="img-fluid" width="350" height="350"   />
             </div>
+            
             <br>
-            <div class="col-md-5 ">
-                <h3 class="mitr-semibold">
-                       ร้านไม่สะดวกซื้อของคุณทกโก
+
+            <div class="col-md-6 ">
+                <h3 class="mitr-semibold head text-center">
+                       "ร้านไม่สะดวกซื้อของคุณทกโก"
                 </h3> 
-                <p class="pridi-regular ">
+               
+                <p class="pridi-regular" >
                     หนังสือเล่มนี้เป็นผลงานที่น่าสนใจและสนุกสนาน เหมาะสำหรับผู้ที่ชื่นชอบเรื่องราวแนวแฟนตาซีผสมผสานกับชีวิตประจำวัน เพราะว่า
                     เนื้อเรื่องมีความแปลกใหม่ นำเสนอแนวคิดเกี่ยวกับร้านสะดวกซื้อในมิติที่แตกต่าง โดยผสมผสานความเหนือจริงเข้ากับชีวิตทั่วไปได้อย่างลงตัว ทำให้ผู้อ่านได้จินตนาการและเพลิดเพลินไปกับโลกที่ผู้เขียนสร้างขึ้น ยกตัวอย่างเช่น
                     ตัวละครหลักอย่างคุณทกโกมีบุคลิกที่น่าสนใจ การดำเนินเรื่องผ่านมุมมองของเขาทำให้เห็นถึงความพิเศษของร้านไม่สะดวกซื้อ และเหตุการณ์แปลกๆ ที่เกิดขึ้น ซึ่งสะท้อนให้เห็นถึงแง่มุมต่างๆ ของชีวิต
@@ -78,32 +100,43 @@
                   <p>ผู้เขียน: คิมโฮย็อน</p>
             </div>
         </div>
+         <!-- end row 3 -->
 
+        <br>
         <br>
         <br>
         <br>
         
-        <div class="row">
-            <div class="col-md-4">
-                <img alt="" src="images/book-2.jpg" class="img-fluid"/> 
-            </div>
-            <div class="col-md-5">
-                <h3>
-                    ขอให้อาหารคํ่ามื้อนี้มีแต่ความรัก
-                </h3>
-                <p>
-                  หนังสือเล่มนี้เป็นงานเขียนที่น่าสนใจและให้แง่คิดดีๆ เกี่ยวกับความรักและความสัมพันธ์ เพราะว่า
-                  ผู้เขียนนำเสนอมุมมองใหม่ๆ เกี่ยวกับความรักผ่านเรื่องราวของอาหารและการรับประทานอาหารร่วมกัน ซึ่งเป็นสิ่งใกล้ตัวที่ทุกคนสามารถเข้าใจได้ง่าย เช่น
-                  หนังสือใช้อุปมาอุปไมยระหว่างการปรุงอาหารกับการสร้างความสัมพันธ์ เช่น การเลือกวัตถุดิบที่ดีเปรียบเสมือนการเลือกคู่ครองที่เหมาะสม หรือการปรุงอาหารด้วยความใส่ใจเปรียบเหมือนการดูแลความรักให้งอกงาม
-                  โดยสรุป หนังสือเล่มนี้เหมาะสำหรับผู้ที่ต้องการมุมมองใหม่ๆ ในการมองความรักและความสัมพันธ์ ผ่านแง่มุมของอาหารที่เข้าใจง่ายและใกล้ตัว
-                </p>
+        <!-- row 4 -->
 
-
-                  <br>
-                  <p>ผู้เขียน: เย่ว์เหมย</p>
-                
-            </div>
+        <div class="row  ">
+          <div class="col-md-12 text-center">
+            <h2 class="head">Others</h2>
+          </div>
         </div>
+       
+        <!-- end row 4 -->
+        <br>
+        <br>
+
+
+    
+        <!-- row 5 -->
+        <div class="row text-center">
+            <div class="col-md-4">
+                <a href="dao.html"><img alt="" src="images/dao.jpg" class="img-fluid"  width="250" height="250"/> 
+                <h5 class="mitr-semibold m-2 head"> ฟ้าไม่เคยมืดเกินมองเห็นดวงดาว</h5 ></a>
+            </div>
+            <div class="col-md-4">
+              <a href="happy.html"><img alt="" src="images/book-3.jpg" class="img-fluid" width="250" height="250"/> 
+              <h5 class="mitr-semibold m-2 head"> เป็นคนธรรมดาที่มีความสุข</h5 ></a>
+          </div>
+          <div class="col-md-4">
+            <a href="jaidee.html"><img alt="" src="images/book-4.jpg" class="img-fluid" width="250" height="250"/> 
+            <h5 class="mitr-semibold m-2 head"> ตั้งแต่วันนี้ฉันจะเริ่มใจดีกับตัวเอง</h5 ></a>
+         </div>
+        </div>
+<!-- end row 5 -->
     </div>
     
     
